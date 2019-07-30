@@ -27,8 +27,7 @@ PrinterType=IBM3812
 [Keyboard]
 CuaKeyboard=2
 Language=United-States
-IBMDefaultKeyboard=N
-DefaultKeyboard=%userprofile%\Documents\IBM\Client Access\Emulator\private\AS400.KMP
+IBMDefaultKeyboard=Y
 [Window]
 ViewFlags=CE00
 RuleLinePos=1 12
