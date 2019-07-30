@@ -1,0 +1,34 @@
+[Profile]
+ID=WS
+Version=9
+[CT]
+trace=Y
+[Telnet5250]
+HostName=192.168.1.40
+AssociatedPrinterStartMinimized=N
+AssociatedPrinterClose=N
+AssociatedPrinterTimeout=0
+Security=CA400
+SSLClientAuthentication=Y
+SecurityProtocol=TLS12
+CertSelection=AUTOSELECT
+AutoReconnect=Y
+[KeepAlive]
+KeepAliveTimeOut=0
+[Communication]
+Link=telnet5250
+Session=5250
+[5250]
+ScreenSize=27x132
+HostCodePage=037-U
+WorkStationID=DDPUSR*=
+BypassSignon=Y
+PrinterType=IBM3812
+[Keyboard]
+CuaKeyboard=2
+Language=United-States
+IBMDefaultKeyboard=N
+DefaultKeyboard=%userprofile%\Documents\IBM\Client Access\Emulator\private\AS400.KMP
+[Window]
+ViewFlags=CE00
+RuleLinePos=1 12
