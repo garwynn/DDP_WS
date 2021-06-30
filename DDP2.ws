@@ -4,7 +4,7 @@ Version=9
 [CT]
 trace=Y
 [Telnet5250]
-HostName=192.168.1.40
+HostName=edi.ddpddl.com
 AssociatedPrinterStartMinimized=N
 AssociatedPrinterClose=N
 AssociatedPrinterTimeout=0
